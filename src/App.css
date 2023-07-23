@@ -1,0 +1,55 @@
+.App {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 700px;
+   background-image: url("/public/oie_hCVeLPjJuT8y.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.cards  {
+      background-image: url("/public/desktop-wallpaper-rick-and-morty-portal-for-phone-rick-and-morty-portal-iphone.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+      height: 400px; 
+      display: flex;
+      justify-content: space-between; 
+      padding: 10px;
+      box-sizing: border-box;
+     
+   }
+   .Log{
+      background-image: url("/public/Rick y morty login.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 80vh; 
+     width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+   }
+   .Email {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .Email label {
+      margin-bottom: 5px;
+    }
+
+    .Password {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .Password label {
+      margin-bottom: 5px;
+    }
